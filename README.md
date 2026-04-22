@@ -54,14 +54,14 @@ Je construis des environnements réalistes pour apprendre par l'expérimentation
 - Inventaire et audit de parc machines
 - Automatisation de tâches récurrentes
 
-📁 [`powershell-scripts`](https://github.com/cedric-ribier/powershell-scripts)
+📁 [`powershell-scripts`](https://github.com/moussa-sarr/powershell-scripts)
 
 ---
 
 ### 📄 Guides d'installation
 > Documentations d'installation pas-à-pas pour des services couramment déployés en environnement pro.
 
-📁 [`install-guides`](https://github.com/cedric-ribier/install-guides)
+📁 [`install-guides`](https://github.com/moussa-sarr/install-guides)
 
 ---
 
@@ -77,7 +77,7 @@ Je construis des environnements réalistes pour apprendre par l'expérimentation
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CedricRibier&show_icons=true&theme=default&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MoussaSarr&show_icons=true&theme=default&hide_border=true&count_private=true)
 
 </div>
 
