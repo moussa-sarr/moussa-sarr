@@ -42,8 +42,8 @@ Je construis des environnements réalistes pour apprendre par l'expérimentation
 - Intégration **Wazuh SIEM** pour la détection et l'analyse d'événements
 - Politiques ACL et segmentation réseau
 
-📁 [`lab-gns3-security`](https://github.com/cedric-ribier/lab-gns3-security)
-📁 [`lab-gns3-tssr`](https://github.com/cedric-ribier/lab-gns3-tssr)
+📁 [`lab-gns3-security`](https://github.com/moussa-sarr/lab-gns3-security)
+📁 [`lab-gns3-tssr`](https://github.com/moussa-sarr/lab-gns3-tssr)
 
 ---
 
