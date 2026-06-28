@@ -11,69 +11,65 @@
 
 ---
 
-## À propos
+## About
 
-Un passionné de l'IT, je me spécialise dans les domaines **systèmes, réseaux, infrastructure et sécurité**.  
-Ma progression passe par la pratique : labs virtuel de mes idéals infra et documentation technique structurée.
-
-Je construis des environnements réalistes pour apprendre par l'expérimentation plutôt que par la théorie seule.
+👋 Hi, I’m Moussa Sarr — **Senior Systems & Network Administrator**, passionate about **cybersecurity** and **high availability**.  
+🎯 My goal is to grow into a **Chief Information Officer (CIO/DSI)** role, leveraging both technical expertise and strategic vision to build infrastructures that meet the exponential evolution of the IT field.
 
 ---
 
-## Compétences
+## 🎓 Academic Background
+- 👨‍🎓 BTS in Systems & Network Administration  
+- 👨‍🎓 European Bachelor in IT  
+- 👨‍🎓 Master’s (FEDE): Expert in IT, Cybersecurity & High Availability (ongoing)
 
-| Domaine | Technologies |
+---
+
+## 💼 Professional Experience
+- 🔧 **Freelance IT Support**: Setup, maintenance, and repair of hardware; user assistance with software.  
+- 📡 **Bouygues Telecom** — Fiber Incident Support (Level 2 → Level 3 in 4 months) [11/2023 - 08/2025]  
+  - Level 2: Incident management, scheduling and coordinating interventions  
+  - Level 3: Advanced support, complex operations, cross‑team coordination with operators and vendors  
+- 🕵️‍♂️ **ARKAS Morocco** — IT Specialist [07/2025 - Present]  
+- 👨‍💻 **HAPAG LLOYD Morocco** — IT Coordinator [07/2025 - Present]
+
+---
+
+## 🛠️ Technical Skills
+
+| Domain | Technology |
 |---|---|
-| **Réseau** | GNS3 · Cisco IOS · VLANs · ACL · Routage OSPF |
-| **Sécurité** | Wazuh SIEM · Analyse de logs · Segmentation réseau |
-| **Système** | Linux (Ubuntu/Debian) · Windows Server · Active Directory |
-| **Scripting** | PowerShell · Bash · Automatisation de tâches |
-| **Virtualisation** | VMware · VirtualBox · GNS3 |
+| **Systems** | Windows - Windows Server - Active Directory - Linux (Debian, Ubuntu) |
+| **Networks** | Cisco IOS - VLAN - Routage - DNS - DHCP - VPN - Wi‑Fi - SD‑WAN |
+| **Security** | Wazuh SIEM - Linux hardening - monitoring - Fortigate management |
+| **Automation** | PowerShell - Bash - Ansible - Terraform |
+| **Cloud & Tools** | Azure - AWS - JIRA - ITSM |
+| **Virtualisation** | VMWare worstation - Proxmox VE - GNS3 |
 
 ---
 
-## Projets en cours
-
-### 🔬 Lab Réseau & Sécurité — GNS3
-> Environnement de lab complet simulant une infrastructure d'entreprise avec supervision de sécurité intégrée.
-
-- Topologie multi-couches avec routeurs, switches et DMZ
-- Déploiement de services Linux (DNS, DHCP, HTTP)
-- Intégration **Wazuh SIEM** pour la détection et l'analyse d'événements
-- Politiques ACL et segmentation réseau
-
-📁 [`lab-gns3-security`](https://github.com/moussa-sarr/lab-gns3-security)
-📁 [`lab-gns3-tssr`](https://github.com/moussa-sarr/lab-gns3-tssr)
+## 🚀 GitHub Projects
+- 🔒 **Security & Network Lab**: GNS3, VMware, Proxmox VE  
+- ⚙️ **PowerShell Scripts**: Active Directory automation, troubleshoot tools  
+- 📂 **Technical Guides**: Installation & configuration of IT services  
+- 📡 **Monitoring & Surveillance**: Cameras, access points, network logs, Zabbix  
 
 ---
 
-### ⚡ Scripts PowerShell
-> Collection de scripts d'administration et d'automatisation système Windows.
-
-- Gestion d'utilisateurs Active Directory
-- Inventaire et audit de parc machines
-- Automatisation de tâches récurrentes
-
-📁 [`powershell-scripts`](https://github.com/moussa-sarr/powershell-scripts)
+## 🎯 Aspirations
+- Advance toward a **CIO/DSI** role, combining technical depth with strategic leadership  
+- Contribute to impactful projects that strengthen resilience and innovation  
+- Share knowledge through labs, tutorials, and documentation  
 
 ---
 
-### 📄 Guides d'installation
-> Documentations d'installation pas-à-pas pour des services couramment déployés en environnement pro.
-
-📁 [`install-guides`](https://github.com/moussa-sarr/install-guides)
-
----
-
-## Actuellement en train d'apprendre
-
-- Approfondissement **Wazuh** — règles de détection personnalisées et corrélation d'événements
-- Hardening Linux et bonnes pratiques de configuration sécurisée
-- Préparation **CCNA** / certifications réseau
+## 🔗 Find Me
+- 💼 [LinkedIn](https://www.linkedin.com/in/m-sarr)  
+- 📂 [GitHub](https://github.com/moussa-sarr)
 
 ---
 
-## Statistiques
+## Statistics
 
 <div align="center">
 
@@ -81,10 +77,3 @@ Je construis des environnements réalistes pour apprendre par l'expérimentation
 
 </div>
 
----
-
-<div align="center">
-
-*Ce profil est en construction active — les repos s'étoffent au rythme du lab* 🔧
-
-</div>
