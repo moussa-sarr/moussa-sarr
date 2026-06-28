@@ -48,6 +48,16 @@
 
 ---
 
+## 🎖️ Certifications & Badges
+
+[![Microsoft Learn Badge 1](https://img.shields.io/badge/Microsoft-Learn-blue?logo=microsoft)](https://learn.microsoft.com/api/achievements/share/en-us/MoussaSARR-2411/A4NSKET7?sharingId=D9983B56550DBD2E)
+[![Microsoft Learn Badge 2](https://img.shields.io/badge/Microsoft-Learn-blue?logo=microsoft)](https://learn.microsoft.com/api/achievements/share/en-us/MoussaSARR-2411/ZBF5BY52?sharingId=D9983B56550DBD2E)
+[![Microsoft Learn Badge 3](https://img.shields.io/badge/Microsoft-Learn-blue?logo=microsoft)](https://learn.microsoft.com/api/achievements/share/en-us/MoussaSARR-2411/U7ATSXS3?sharingId=D9983B56550DBD2E)
+
+[![Saylor Badge](https://img.shields.io/badge/Saylor-University-green?logo=bookstack)](https://learn.saylor.org/admin/tool/certificate/my.php)
+
+---
+
 ## 🚀 GitHub Projects
 - 🔒 **Security & Network Lab**: GNS3, VMware, Proxmox VE  
 - ⚙️ **PowerShell Scripts**: Active Directory automation, troubleshoot tools  
