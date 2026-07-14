@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moussa Sarr — Administrateur Systèmes & Réseaux Senior | Futur DSI</title>
+<meta name="description" content="Portfolio de Moussa Sarr, Administrateur Systèmes & Réseaux Senior spécialisé Cloud, Infrastructure et Cybersécurité. Casablanca, Maroc.">
+<meta name="author" content="Moussa Sarr">
+<link rel="canonical" href="https://moussasarr.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Moussa Sarr — Administrateur Systèmes & Réseaux Senior">
+<meta property="og:description" content="Infrastructure • Cloud • Cybersecurity • Governance — Portfolio professionnel.">
+<meta property="og:image" content="https://moussasarr.github.io/assets/og-cover.jpg">
+<meta property="og:url" content="https://moussasarr.github.io/">
+<meta property="og:locale" content="fr_FR">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Moussa Sarr — Administrateur Systèmes & Réseaux Senior">
+<meta name="twitter:description" content="Infrastructure • Cloud • Cybersecurity • Governance — Portfolio professionnel.">
+<meta name="twitter:image" content="https://moussasarr.github.io/assets/og-cover.jpg">
+
+<meta name="theme-color" content="#0A0A0F">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- JSON-LD: Person / Occupation -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Moussa Sarr",
+  "url": "https://moussasarr.github.io/",
+  "jobTitle": "Senior Systems & Network Administrator",
+  "description": "Administrateur Systèmes & Réseaux Senior spécialisé Cloud, Infrastructure et Cybersécurité, en évolution vers un rôle de Directeur des Systèmes d'Information.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Casablanca", "addressCountry": "MA" },
+  "sameAs": [
+    "https://github.com/moussasarr",
+    "https://www.linkedin.com/in/moussasarr"
+  ],
+  "knowsAbout": ["Windows Server", "Active Directory", "Microsoft Azure", "Microsoft 365", "Cybersecurity", "Zero Trust", "ITIL", "Network Architecture", "Cloud Computing"],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senior Systems & Network Administrator",
+    "occupationLocation": { "@type": "City", "name": "Casablanca" },
+    "skills": "Infrastructure, Cloud, Cybersecurity, Governance"
+  }
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Aller au contenu principal</a>
+
+<!-- ===================== LOADER ===================== -->
+<div id="loader" aria-hidden="true">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path class="ms-path" d="M10 70 L10 30 L30 55 L50 30 L50 70 M65 30 H85 M65 30 V50 H85 V70 H65" />
+  </svg>
+</div>
+
+<!-- ===================== RECRUITER BANNER ===================== -->
+<div id="recruiter-banner" role="status">
+  <span data-i18n="recruiterMode.bannerText"></span>
+  <button id="recruiter-exit" data-i18n="recruiterMode.exit"></button>
+</div>
+
+<!-- ===================== NAVIGATION ===================== -->
+<header id="nav">
+  <div class="container nav-row">
+    <a href="#hero" class="logo" aria-label="Moussa Sarr — accueil"><span class="dot"></span>MOUSSA SARR</a>
+
+    <nav aria-label="Navigation principale">
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#about" data-i18n="nav.about"></a></li>
+        <li><a href="#timeline" data-i18n="nav.experience"></a></li>
+        <li><a href="#skills" data-i18n="nav.skills"></a></li>
+        <li><a href="#architecture" data-i18n="nav.architecture"></a></li>
+        <li><a href="#projects" data-i18n="nav.projects"></a></li>
+        <li><a href="#certifications" data-i18n="nav.certifications"></a></li>
+        <li><a href="#blog" data-i18n="nav.blog"></a></li>
+        <li><a href="#contact" data-i18n="nav.contact"></a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-btn icon-btn" data-lang="fr" aria-label="Français" style="font-family:var(--font-mono);font-size:11px;font-weight:700">FR</button>
+      <button class="lang-btn icon-btn" data-lang="en" aria-label="English" style="font-family:var(--font-mono);font-size:11px;font-weight:700">EN</button>
+      <button id="theme-toggle" class="icon-btn" aria-label="Changer de thème">
+        <svg id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.5A8.5 8.5 0 1111.5 3a7 7 0 009.5 9.5z"/></svg>
+        <svg id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn open-share" aria-label="Partager">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-3.9M8.6 13.5l6.8 3.9"/></svg>
+      </button>
+      <a href="cv.pdf" class="btn btn-ghost cv-download" data-i18n="nav.cv"></a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero">
+    <div class="ambient-glow" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-kicker"><span class="pulse"></span><span data-i18n="hero.kicker"></span></div>
+      <h1 class="hero-name">MOUSSA <span class="accent-text">SARR</span></h1>
+      <div class="hero-role"><span id="hero-role-text"></span><span class="cursor">&nbsp;</span></div>
+      <p class="hero-tagline" data-i18n="hero.tagline"></p>
+      <div class="hero-cta">
+        <a href="cv.pdf" class="btn btn-primary cv-download"><span data-i18n="hero.ctaPrimary"></span></a>
+        <a href="#contact" class="btn btn-ghost"><span data-i18n="hero.ctaSecondary"></span></a>
+        <button class="btn btn-recruiter recruiter-toggle">👔 <span data-i18n="nav.recruiter"></span></button>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span data-i18n="hero.scroll"></span><span class="line"></span></div>
+  </section>
+
+  <!-- ===================== KPI ===================== -->
+  <section id="kpi" aria-labelledby="kpi-title">
+    <div class="container">
+      <h2 id="kpi-title" class="sr-only" data-i18n="kpi.title"></h2>
+      <div id="kpi-grid" class="kpi-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about">
+    <div class="container about-layout">
+      <div class="about-photo-wrap reveal">
+        <div class="about-photo-ring" aria-hidden="true"></div>
+        <img class="about-photo" src="assets/photo.jpg" alt="Photo de portrait de Moussa Sarr" loading="lazy"
+             onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect width=%22200%22 height=%22200%22 fill=%22%23111118%22/><text x=%2250%25%22 y=%2255%25%22 fill=%22%23A855F7%22 font-size=%2242%22 font-family=%22sans-serif%22 text-anchor=%22middle%22>MS</text></svg>'">
+      </div>
+      <div class="about-text reveal">
+        <div class="eyebrow" data-i18n="about.eyebrow"></div>
+        <h2 data-i18n="about.title"></h2>
+        <p style="margin-top:var(--space-3)" data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+        <p data-i18n="about.p3"></p>
+        <div id="about-pillars" class="about-pillars"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VISION ===================== -->
+  <section id="vision">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="vision.eyebrow"></div>
+        <h2 data-i18n="vision.title"></h2>
+        <p data-i18n="vision.p"></p>
+      </div>
+      <div id="vision-grid" class="grid-4"></div>
+    </div>
+  </section>
+
+  <!-- ===================== VALUES ===================== -->
+  <section id="values">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="values.eyebrow"></div>
+        <h2 data-i18n="values.title"></h2>
+      </div>
+      <div id="values-grid" class="grid-4"></div>
+    </div>
+  </section>
+
+  <!-- ===================== TIMELINE ===================== -->
+  <section id="timeline">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="timeline.eyebrow"></div>
+        <h2 data-i18n="timeline.title"></h2>
+      </div>
+      <div id="timeline" class="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ===================== REALISATIONS ===================== -->
+  <section id="impact" class="decor">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="impact.eyebrow"></div>
+        <h2 data-i18n="impact.title"></h2>
+      </div>
+      <div id="impact-list"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="skills.eyebrow"></div>
+        <h2 data-i18n="skills.title"></h2>
+      </div>
+      <div id="skill-tabs" class="skill-cat-tabs" role="tablist"></div>
+      <div id="skill-panels"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ARCHITECTURE SI ===================== -->
+  <section id="architecture">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="architecture.eyebrow"></div>
+        <h2 data-i18n="architecture.title"></h2>
+        <p data-i18n="architecture.p"></p>
+      </div>
+      <div class="arch-wrap">
+        <div class="arch-diagram reveal">
+          <div id="arch-chain" class="arch-chain"></div>
+        </div>
+        <div id="arch-detail" class="arch-detail reveal"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="projects.eyebrow"></div>
+        <h2 data-i18n="projects.title"></h2>
+      </div>
+      <div id="projects-grid" class="grid-3"></div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="certifications.eyebrow"></div>
+        <h2 data-i18n="certifications.title"></h2>
+      </div>
+      <div id="cert-cols" class="cert-cols"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ROADMAP CARRIERE ===================== -->
+  <section id="roadmap">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="roadmap.eyebrow"></div>
+        <h2 data-i18n="roadmap.title"></h2>
+      </div>
+      <div id="roadmap-track" class="roadmap-track"></div>
+    </div>
+  </section>
+
+  <!-- ===================== VEILLE TECHNOLOGIQUE ===================== -->
+  <section id="veille" class="veille">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="veille.eyebrow"></div>
+        <h2 data-i18n="veille.title"></h2>
+      </div>
+      <div id="veille-cloud" class="veille-cloud"></div>
+    </div>
+  </section>
+
+  <!-- ===================== GITHUB ===================== -->
+  <section id="github" class="decor">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">GitHub</div>
+        <h2>Open source & code</h2>
+      </div>
+      <div id="github-stats" class="kpi-grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))"></div>
+    </div>
+  </section>
+
+  <!-- ===================== BLOG ===================== -->
+  <section id="blog">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="blog.eyebrow"></div>
+        <h2 data-i18n="blog.title"></h2>
+        <p data-i18n="blog.p"></p>
+      </div>
+      <div id="blog-grid" class="grid-3"></div>
+    </div>
+  </section>
+
+  <!-- ===================== RESOURCES ===================== -->
+  <section id="resources">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="resources.eyebrow"></div>
+        <h2 data-i18n="resources.title"></h2>
+      </div>
+      <div id="resources-list"></div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="faq.eyebrow"></div>
+        <h2 data-i18n="faq.title"></h2>
+      </div>
+      <div id="faq-list" style="max-width:760px"></div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" data-i18n="contact.eyebrow"></div>
+        <h2 data-i18n="contact.title"></h2>
+        <p data-i18n="contact.p"></p>
+      </div>
+      <div class="contact-layout">
+        <form id="contact-form" class="reveal" novalidate>
+          <div class="form-row">
+            <label for="f-name" data-i18n="contact.form.name"></label>
+            <input type="text" id="f-name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="f-email" data-i18n="contact.form.email"></label>
+            <input type="email" id="f-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="f-subject" data-i18n="contact.form.subject"></label>
+            <input type="text" id="f-subject" name="subject" autocomplete="off">
+          </div>
+          <div class="form-row">
+            <label for="f-message" data-i18n="contact.form.message"></label>
+            <textarea id="f-message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.send"></button>
+          <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+        <div class="reveal">
+          <div id="contact-cards" class="contact-cards"></div>
+          <div style="display:flex;gap:8px;margin-top:var(--space-3)">
+            <button id="download-card-btn" class="btn btn-ghost btn-sm">🪪 Carte de visite</button>
+            <button class="btn btn-ghost btn-sm open-share">🔗 Partager</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div class="logo"><span class="dot"></span>MOUSSA SARR</div>
+      <ul class="footer-links">
+        <li><a href="#" data-i18n="footer.legal"></a></li>
+        <li><a href="#" data-i18n="footer.privacy"></a></li>
+        <li><a href="https://github.com/moussasarr" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/moussasarr" rel="noopener">LinkedIn</a></li>
+      </ul>
+      <button class="icon-btn back-to-top" aria-label="Retour en haut" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </button>
+    </div>
+    <div class="footer-meta">
+      © <span id="footer-year"></span> Moussa Sarr. <span data-i18n="footer.rights"></span>
+      · <span data-i18n="footer.lastUpdate"></span>: <span id="footer-update"></span> · v1.0.0
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== SHARE / QR MODAL ===================== -->
+<div id="share-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+  <div class="modal-box">
+    <button class="icon-btn modal-close" aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <h3 id="share-modal-title" data-i18n="modal.shareTitle"></h3>
+    <div id="qr-canvas-wrap"></div>
+    <div class="share-url-box">
+      <span id="share-url-text"></span>
+      <button id="copy-link-btn" class="btn btn-ghost btn-sm" data-i18n="modal.copyLink"></button>
+    </div>
+    <div class="modal-actions">
+      <button id="download-qr-btn" class="btn btn-ghost btn-sm" data-i18n="modal.downloadQr"></button>
+      <button id="native-share-btn" class="btn btn-primary btn-sm" data-i18n="modal.share"></button>
+    </div>
+  </div>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
