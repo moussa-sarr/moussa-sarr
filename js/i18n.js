@@ -16,7 +16,7 @@ const I18N = {
       blog: "Blog", contact: "Contact", cv: "Télécharger le CV", recruiter: "Je suis recruteur"
     },
     hero: {
-      kicker: "Disponible pour de nouvelles opportunités",
+      kicker: "keep in touch",
       roles: ["Cloud Engineer", "Infrastructure Engineer", "Systems Administrator", "Cybersecurity Specialist", "IT Infrastructure Expert", "Futur DSI"],
       tagline: "Transformer la technologie en levier de performance, de sécurité et de croissance.",
       ctaPrimary: "Télécharger mon CV",
@@ -26,9 +26,9 @@ const I18N = {
     kpi: {
       title: "En chiffres",
       items: [
-        { num: "7", suffix: "+", label: "Ans d'expérience IT" },
+        { num: "4", suffix: "+", label: "Ans d'expérience IT" },
         { num: "99.9", suffix: "%", label: "Disponibilité infrastructure" },
-        { num: "40", suffix: "+", label: "Automatisations déployées" },
+        { num: "10", suffix: "+", label: "Automatisations déployées" },
         { num: "3", suffix: "", label: "Entreprises accompagnées" },
         { num: "24", suffix: "/7", label: "Supervision & astreinte" },
         { num: "0", suffix: "", label: "Incident critique non résolu" }
@@ -77,22 +77,22 @@ const I18N = {
       title: "Timeline professionnelle",
       items: [
         {
-          date: "2024 — Aujourd'hui", role: "Senior Systems & Network Administrator", org: "Hapag-Lloyd",
+          date: "2025 — Aujourd'hui", role: "IT Coordinator", org: "Hapag-Lloyd",
           body: "Pilotage de l'infrastructure systèmes et réseaux d'un acteur majeur du transport maritime international : haute disponibilité, sécurité des accès et supervision multi-sites.",
           tags: ["Windows Server", "Azure", "Cybersécurité", "Supervision", "ITSM"], results: "99.9% de disponibilité maintenue sur les environnements critiques."
         },
         {
-          date: "2022 — 2024", role: "Systems & Network Administrator", org: "ARKAS Morocco",
+          date: "2025 — Aujourd'hui", role: "Systems & Network Administrator", org: "ARKAS Morocco",
           body: "Administration des systèmes et réseaux pour un groupe logistique international. Sécurisation des accès, automatisation des tâches récurrentes et amélioration continue du support.",
           tags: ["Active Directory", "Réseaux", "Automatisation", "Support N3"], results: "Réduction significative des interruptions de service grâce à une gestion proactive des incidents."
         },
         {
-          date: "2020 — 2022", role: "IT Support Engineer", org: "Bouygues Telecom",
+          date: "2023 — 2025", role: "IT Support Engineer", org: "Bouygues Telecom",
           body: "Support technique niveau expert dans un environnement télécom exigeant, avec forte volumétrie et exigence de réactivité.",
           tags: ["Réseaux Télécom", "Support N2/N3", "Supervision"], results: "Montée en compétence rapide sur des environnements à fort volume d'incidents."
         },
         {
-          date: "2018 — 2020", role: "Freelance IT Support", org: "Indépendant",
+          date: "2022 — 2023", role: "Freelance IT Support", org: "Indépendant",
           body: "Accompagnement de TPE/PME sur leurs problématiques systèmes, réseaux et sécurité informatique au quotidien.",
           tags: ["Windows", "Réseaux", "Sécurité", "Relation client"], results: "Premiers pas dans la gestion complète d'infrastructures clients, du diagnostic à la résolution."
         }
