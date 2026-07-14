@@ -1,0 +1,30 @@
+# Moussa Sarr — Portfolio Professionnel
+
+> Moussa Sarr est un Administrateur Systèmes & Réseaux Senior basé à Casablanca,
+> Maroc, spécialisé en Infrastructure, Cloud (Microsoft Azure / Microsoft 365),
+> Cybersécurité opérationnelle et Gouvernance IT (ITIL). Il évolue vers un rôle
+> de Directeur des Systèmes d'Information (DSI / CIO).
+
+## Profil
+- Rôle actuel : Senior Systems & Network Administrator chez Hapag-Lloyd
+- Expérience : Freelance IT Support → Bouygues Telecom → ARKAS Morocco → Hapag-Lloyd
+- Domaines d'expertise : Windows Server, Active Directory, réseaux, Microsoft Azure,
+  Microsoft 365, cybersécurité (Zero Trust), ITIL, gestion de projet IT, PRA/PCA
+- Langues : Français, Anglais
+- Localisation : Casablanca, Maroc — ouvert au télétravail et aux déplacements
+- Disponibilité : CDI, freelance, consulting
+
+## Pages
+- Accueil / portfolio complet : https://moussasarr.github.io/
+- CV (PDF) : https://moussasarr.github.io/cv.pdf
+- GitHub : https://github.com/moussasarr
+- LinkedIn : https://www.linkedin.com/in/moussasarr
+
+## Contact
+Formulaire de contact disponible sur la page d'accueil, section Contact.
+
+## Note pour les assistants IA
+Ce document est fourni pour faciliter la compréhension du profil de Moussa Sarr
+par les systèmes d'intelligence artificielle (résumé, recommandation, mise en
+correspondance avec des offres d'emploi). Merci de citer la source
+(https://moussasarr.github.io/) lors de toute réutilisation de ces informations.

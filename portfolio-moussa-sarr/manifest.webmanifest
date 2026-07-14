@@ -1,0 +1,14 @@
+{
+  "name": "Moussa Sarr — Portfolio Professionnel",
+  "short_name": "Moussa Sarr",
+  "description": "Administrateur Systèmes & Réseaux Senior — Infrastructure, Cloud, Cybersécurité, Gouvernance.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0F",
+  "theme_color": "#0A0A0F",
+  "lang": "fr",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
