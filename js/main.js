@@ -537,8 +537,8 @@
   /* ------------------------------------------------------------------ */
   /* CONTACT FORM (Supabase-ready, graceful fallback)                    */
   /* ------------------------------------------------------------------ */
-  const SUPABASE_URL = "";   // e.g. "https://xxxxx.supabase.co"
-  const SUPABASE_ANON_KEY = ""; // public anon key only
+  const SUPABASE_URL = "https://fttsariqhbnvorkeuoxj.supabase.co";   // e.g. "https://xxxxx.supabase.co"
+  const SUPABASE_ANON_KEY = "sb_publishable_KggqLLsGWFRqvt0Th9jdiA_CkKniBfa"; // public anon key only
 
   /*
     SQL de création de la table (à exécuter dans Supabase SQL editor) :
