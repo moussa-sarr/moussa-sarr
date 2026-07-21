@@ -286,7 +286,7 @@
         <p><strong style="color:var(--accent-2)">${labels.result}: </strong>${p.result}</p>
         <div class="project-meta">${p.tech.map(x => `<span class="tag">${x}</span>`).join("")}</div>
         <div class="project-links">
-          <a href="https://github.com/moussasarr" rel="noopener">↗ ${labels.github}</a>
+          <a href="https://github.com/moussa-sarr" rel="noopener">↗ ${labels.github}</a>
           <a href="#contact">↗ ${labels.doc}</a>
         </div>
       </div>`).join("");
@@ -726,8 +726,8 @@
       ctx.fillText(t().hero.roles[0] + " · " + t().hero.roles[1], 48, 165);
       ctx.fillStyle = "#A855F7"; ctx.font = "16px monospace";
       ctx.fillText("Casablanca, Maroc", 48, 220);
-      ctx.fillText("github.com/moussasarr", 48, 248);
-      ctx.fillText("linkedin.com/in/moussasarr", 48, 276);
+      ctx.fillText("github.com/moussa-sarr", 48, 248);
+      ctx.fillText("linkedin.com/in/m-sarr", 48, 276);
       const link = document.createElement("a");
       link.download = "moussa-sarr-carte-visite.png";
       link.href = canvas.toDataURL("image/png");
@@ -741,7 +741,7 @@
   async function loadGithubStats() {
     const wrap = $("#github-stats");
     if (!wrap) return;
-    const username = "moussasarr";
+    const username = "moussa-sarr";
     try {
       const res = await fetch(`https://api.github.com/users/${username}`);
       if (!res.ok) throw new Error("api error");
