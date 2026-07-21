@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moussasarr.github.io/sitemap.xml
+Sitemap: https://moussa-sarr.github.io/moussa-sarr/sitemap.xml
