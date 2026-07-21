@@ -6,19 +6,20 @@
 > de Directeur des Systèmes d'Information (DSI / CIO).
 
 ## Profil
-- Rôle actuel : Senior Systems & Network Administrator chez Hapag-Lloyd
-- Expérience : Freelance IT Support → Bouygues Telecom → ARKAS Morocco → Hapag-Lloyd
+- Rôle actuel : Senior Systems & Network Administrator chez ARKAS Maroc et IT Coordinateur pour HAPAG LLOYD Maroc
+- Expérience : Technicien Freelance → Support N2 - N3 Bouygues Telecom → Speciliste IT ARKAS Maroc → IT Coordinator
+  Hapag-Lloyd
 - Domaines d'expertise : Windows Server, Active Directory, réseaux, Microsoft Azure,
-  Microsoft 365, cybersécurité (Zero Trust), ITIL, gestion de projet IT, PRA/PCA
+  Microsoft 365, cybersécurité (Zero Trust), ITIL, gestion de projet IT, PRA/PCA etc
 - Langues : Français, Anglais
 - Localisation : Casablanca, Maroc — ouvert au télétravail et aux déplacements
 - Disponibilité : CDI, freelance, consulting
 
 ## Pages
-- Accueil / portfolio complet : https://moussasarr.github.io/
-- CV (PDF) : https://moussasarr.github.io/cv.pdf
-- GitHub : https://github.com/moussasarr
-- LinkedIn : https://www.linkedin.com/in/moussasarr
+- Accueil / portfolio complet : https://moussa-sarr.github.io/moussa-sarr
+- CV (PDF) : https://moussa-sarr.github.io/cv.pdf
+- GitHub : https://github.com/moussa-sarr
+- LinkedIn : https://www.linkedin.com/in/m-sarr
 
 ## Contact
 Formulaire de contact disponible sur la page d'accueil, section Contact.
@@ -27,4 +28,4 @@ Formulaire de contact disponible sur la page d'accueil, section Contact.
 Ce document est fourni pour faciliter la compréhension du profil de Moussa Sarr
 par les systèmes d'intelligence artificielle (résumé, recommandation, mise en
 correspondance avec des offres d'emploi). Merci de citer la source
-(https://moussasarr.github.io/) lors de toute réutilisation de ces informations.
+(https://moussa-sarr.github.io/moussa-sarr) lors de toute réutilisation de ces informations.
