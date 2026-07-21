@@ -1,9 +1,6 @@
 # Portfolio — Moussa Sarr
 
-Portfolio professionnel premium, 100% statique, hébergé sur **GitHub Pages**.
-Aucun serveur, aucun backend requis (HTML / CSS / JavaScript vanilla).
-
-🔗 Démo : https://moussasarr.github.io/
+🔗 Démo : https://moussa-sarr.github.io/moussa-sarr
 
 ---
 
