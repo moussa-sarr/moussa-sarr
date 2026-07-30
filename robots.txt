@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://moussa-sarr.github.io/moussa-sarr/sitemap.xml
